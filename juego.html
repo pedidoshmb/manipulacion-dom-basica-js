@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego</title>
+    <script>
+      var piedra = 1;
+      var papel = 2;
+      var tigera = 3;
+
+      let pc= 1;
+
+      let jugador = 0;
+      jugador = prompt("Elige 1 Piedra / 2 Papel / 3 Tijera")
+        if(jugador == 1){
+            alert("Elegiste 🪨")
+        } else if(jugador ==2){
+            alert(" Elegiste 🧻")
+        } else {
+            alert("Elegiste ✂️")
+        }
+
+        // Jugada pc
+
+        if(pc ==1){
+            alert("Elegiste 🪨")
+        } else if( pc ==2){
+            alert("Elegiste 🧻")
+        }else {
+            alert("Elegiste ✂️")
+        }
+
+        // COMBATE
+        if(jugador == pc){
+            alert("Empatador pendejos")
+        }
+
+
+    </script>
+  </head>
+  <body></body>
+</html>
